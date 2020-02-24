@@ -15,7 +15,7 @@
 ```ps
 PS C:\Users\y\Documents\GitHub\Book-FlaskApp-01-MinimalApp> py -m venv flaskenv
 PS C:\Users\y\Documents\GitHub\Book-FlaskApp-01-MinimalApp> flaskenv\Scripts\activate
-(flaskenv) PS C:\Users\y\Documents\GitHub\Book-FlaskApp-01-MinimalApp>
+(flaskenv) PS C:\Users\y\Documents\GitHub\Book-FlaskApp-01-MinimalApp> py -m pip install Flask
 ```
 
 ## Flask で `Hello, World!` を返す API を作る
