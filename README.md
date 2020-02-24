@@ -64,3 +64,32 @@ C:\Users\y\Documents\GitHub\Book-FlaskApp-01-MinimalApp> set FLASK_APP=app.py
 ブラウザを開き、 [http://127.0.0.1:5000/](http://127.0.0.1:5000/) にアクセスして、 `Hello, World!` と表示されることを確認します。
 
 ![hello-world.png](README-src/hello-world.png)
+
+## デバッグモードを有効化する
+
+デバッグモードにすると、
+
+- デバッガを起動
+- 自動リローダーを起動
+- ブラウザにエラー出力
+
+を行います。
+
+```ps
+(flaskenv) PS C:\Users\y\Documents\GitHub\Book-FlaskApp-01-MinimalApp> $env:FLASK_ENV = "development"
+(flaskenv) PS C:\Users\y\Documents\GitHub\Book-FlaskApp-01-MinimalApp> python -m flask run
+```
+
+> - Serving Flask app "app.py" (lazy loading)
+>
+> - Environment: development
+>
+> - Debug mode: on
+>
+> - Restarting with stat
+>
+> - Debugger is active!
+>
+> - Debugger PIN: 320-354-832
+>
+> - Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
